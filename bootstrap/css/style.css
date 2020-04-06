@@ -188,3 +188,18 @@ footer .nav-link {
     color:#000;
     font-size: 15px;
 }
+
+/* BREAKPOINTS RESPONSIVOS */ 
+
+@media screen and (max-width: 767px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .TopBarContact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
