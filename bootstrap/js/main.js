@@ -1,3 +1,5 @@
+// SCROLL EFFECT 
+
 $(".nav-link").click(function(event){
     event.preventDefault();
     $('html, body').animate({
